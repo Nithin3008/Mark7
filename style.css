@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Sansita+Swashed:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --primary: #22C55E
+}
+
+body {
+    margin: 0;
+}
+
+.navig {
+    background-color: var(--primary);
+    padding: 2rem;
+}
+
+.navig div {
+    text-align: center;
+    font-size: larger;
+}
+
+.mid-area {
+    width: 600px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.mid-area textarea {
+    display: block;
+    width: 55%;
+    min-height: 20vh;
+
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: var(--primary);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer div {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer p {
+
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
+}
